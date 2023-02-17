@@ -6,8 +6,9 @@ import {
   Button,
 } from "@openkind/components";
 import { useTranslation } from "next-i18next";
+import Link from "next/link";
 
-export default function Faq() {
+export default function FAQ() {
   const { t } = useTranslation();
   return (
     <section className="flex justify-center pb-12">
@@ -21,9 +22,17 @@ export default function Faq() {
             <AccordionContent>
               <div className="flex flex-col">
                 {t("faq.howToContribute.text")}
-                <Button variant="outline" className="mt-4 w-min">
-                  {t("faq.howToContribute.button")}
-                </Button>
+                <Link
+                  href="https://discord.gg/R4wJ2TDshg"
+                  passHref
+                  legacyBehavior
+                >
+                  <a>
+                    <Button variant="outline" className="mt-4 w-min">
+                      {t("faq.howToContribute.button")}
+                    </Button>
+                  </a>
+                </Link>
               </div>
             </AccordionContent>
           </AccordionItem>
