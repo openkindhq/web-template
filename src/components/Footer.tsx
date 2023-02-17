@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <div className="flex h-min items-center justify-center bg-white  p-12 text-neutral-900  dark:bg-black/10 dark:text-neutral-50">
       <div className="flex w-4/5 flex-col items-center justify-between space-y-8 text-neutral-500 dark:text-neutral-400  lg:flex-row lg:space-y-0">
-        <div className="flex items-center space-x-1 lg:space-x-1 justify-center">
+        <div className="flex items-center justify-center space-x-1 lg:space-x-1">
           <h1 className="text-3xl">Ξ</h1>
           <p>{t("footer.initiative")}</p>
         </div>
