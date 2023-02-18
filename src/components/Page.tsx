@@ -23,7 +23,6 @@ export default function Page({ children, title, description }: IProps) {
         </div>
         <Footer />
       </div>
-     
     </>
   );
 }
