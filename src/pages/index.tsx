@@ -17,7 +17,6 @@ const Home: NextPage = () => {
     <Page title="OpenKind" description="Home page">
       <div>
         <main>
-          <div className="h-screen"></div>
         </main>
         <FAQ />
       </div>
