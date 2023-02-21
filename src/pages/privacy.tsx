@@ -14,7 +14,7 @@ export const getServerSideProps = async ({ locale }: { locale: string }) => ({
 const Privacy: NextPage = () => {
   return (
     <Page title="Privacy | OpenKind" description="Home page">
-      <main className="h-screen">
+      <main>
         {/* 
             Here goes the content
             */}
