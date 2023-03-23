@@ -5,16 +5,16 @@ import { appWithTranslation } from "next-i18next";
 
 import nextI18nConfig from "../../next-i18next.config.mjs";
 
-import { Red_Hat_Display, DM_Sans, Poppins } from "@next/font/google";
+import { Red_Hat_Display, DM_Sans } from "@next/font/google";
 
 const rhd = Red_Hat_Display({
   subsets: ["latin"],
   variable: "--font-rhd",
 });
 
-const poppins = DM_Sans({
+const dm_sans = DM_Sans({
   subsets: ["latin"],
-  variable: "--font-poppins",
+  variable: "--font-dm_sans",
   weight: "400",
 });
 
@@ -22,7 +22,7 @@ import "../styles/globals.css";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
-    <main className={`${rhd.variable} ${poppins.variable} font-main`}>
+    <main className={`${rhd.variable} ${dm_sans.variable} font-main`}>
       <Component {...pageProps} />
     </main>
   );

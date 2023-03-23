@@ -14,7 +14,11 @@ export default function FAQ() {
     <section className="flex justify-center pb-12">
       <div className="w-4/5">
         <h1 className="font-heading text-xl font-semibold">{t("faq.title")}</h1>
-        <Accordion type="single" collapsible className="lg:w-4/5 text-neutral-500 dark:text-neutral-300">
+        <Accordion
+          type="single"
+          collapsible
+          className="text-neutral-500 dark:text-neutral-300 lg:w-4/5"
+        >
           <AccordionItem value="item-3">
             <AccordionTrigger>
               {t("faq.howToContribute.trigger")}

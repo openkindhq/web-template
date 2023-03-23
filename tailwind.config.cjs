@@ -12,7 +12,7 @@ module.exports = {
         darkBg: "#111111",
       },
       fontFamily: {
-        main: ["var(--font-poppins)", fontFamily.sans],
+        main: ["var(--font-dm_sans)", fontFamily.sans],
         heading: ["var(--font-rhd)", fontFamily.sans],
       },
     },
