@@ -5,14 +5,14 @@ import { appWithTranslation } from "next-i18next";
 
 import nextI18nConfig from "../../next-i18next.config.mjs";
 
-import { Red_Hat_Display, Poppins } from "@next/font/google";
+import { Red_Hat_Display, DM_Sans, Poppins } from "@next/font/google";
 
 const rhd = Red_Hat_Display({
   subsets: ["latin"],
   variable: "--font-rhd",
 });
 
-const poppins = Poppins({
+const poppins = DM_Sans({
   subsets: ["latin"],
   variable: "--font-poppins",
   weight: "400",
